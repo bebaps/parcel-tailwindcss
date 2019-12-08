@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/bebaps/parcel-tailwindcss.git"
   },
+  "bugs": {
+    "url": "https://github.com/bebaps/parcel-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/bebaps/parcel-tailwindcss#readme",
   "author": {
     "name": "Alexander Persky",
     "email": "info@alexanderpersky.com",
