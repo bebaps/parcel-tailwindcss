@@ -1,0 +1,7 @@
+# www.robotstxt.org
+
+# Disallow all crawling since this is setup is really just for development,
+# but this still might end up on a server
+
+User-agent: *
+Disallow: /

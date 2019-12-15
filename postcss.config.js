@@ -7,6 +7,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 module.exports = {
   plugins: [
     require('tailwindcss')('tailwind.config.js'),
+    require('postcss-nested'),
     require('postcss-preset-env')({
       stage: 1,
       autoprefixer: {
