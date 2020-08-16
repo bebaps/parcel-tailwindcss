@@ -4,7 +4,6 @@ module.exports = {
     "./src/**/*.pug",
     "./src/**/*.js"
   ],
-  important: false,
   theme: {
     extend: {}
   },

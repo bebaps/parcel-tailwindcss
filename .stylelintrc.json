@@ -7,11 +7,11 @@
       {
         "ignoreAtRules": [
           "screen",
-          "apply"
+          "apply",
+          "tailwind"
         ]
       }
     ],
-    "string-quotes": "single",
     "no-duplicate-selectors": true,
     "color-hex-case": "lower",
     "color-hex-length": "short",

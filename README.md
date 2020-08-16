@@ -10,4 +10,5 @@ The base files are already included to begin using Pug. If you will not be using
 - [ESLint](https://eslint.org)
 - [Pug](https://pugjs.org/api/getting-started.html)
 - [PostCSS](https://postcss.org)
+- [PostCSS Preset Env](https://preset-env.cssdb.org)
 - [Tailwind CSS](https://tailwindcss.com)
