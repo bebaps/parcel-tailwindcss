@@ -20,15 +20,21 @@
     "dev": "parcel index.html",
     "watch": "parcel watch index.html",
     "build": "parcel build index.html --no-source-maps",
+    "pug:dev": "parcel src/index.pug",
+    "pug:open": "parcel src/index.pug --open 'google chrome'",
+    "pug:build": "parcel build src/index.pug",
+    "pug:watch": "parcel watch src/index.pug",
     "clean": "rm -rf dist .cache",
     "lint:css": "stylelint --fix src/css/**/*.pcss",
     "lint:js": "eslint src/js/**/*.js"
   },
   "devDependencies": {
-    "eslint": "7.0.0",
+    "eslint": "^7.7.0",
     "parcel-bundler": "^1.12.4",
-    "postcss-preset-env": "^6.7.0",
     "postcss-import": "^12.0.1",
+    "postcss-modules": "^3.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "pug": "^3.0.0",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
   },
