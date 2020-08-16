@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {},
+  "ignorePatterns": [
+    "tailwind.config.js",
+    "postcss.config.js"
+  ]
+}
